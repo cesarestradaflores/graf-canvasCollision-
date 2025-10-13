@@ -1,10 +1,28 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #333;
-    }
-    canvas {
-    border: 2px solid #fff;
-    }
+  margin: 0;
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+#canvas {
+  display: block;
+  border: 2px solid #fff;
+  background: linear-gradient(to bottom, #111, #000);
+}
+
+#scoreboard {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
